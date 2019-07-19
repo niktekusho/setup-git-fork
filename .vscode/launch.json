@@ -1,0 +1,23 @@
+{
+    // Usare IntelliSense per informazioni sui possibili attributi.
+    // Al passaggio del mouse vengono visualizzate le descrizioni degli attributi esistenti.
+    // Per ulteriori informazioni, visitare: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}\\bin\\index.js",
+            "cwd": "${workspaceFolder}\\..",
+            "args": [
+                "-u",
+                "niktekusho",
+                "https://github.com/npm/hosted-git-info"
+            ],
+            "skipFiles": [
+                "<node_internals>/**/*.js"
+            ]
+        }
+    ]
+}
