@@ -1,0 +1,52 @@
+{
+    "name": "cli-name",
+    "version": "0.0.0",
+    "description": "CLI Description",
+    "main": "index.js",
+    "bin": {
+        "cli-name": "bin/index.js"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^24.8.0",
+        "np": "^5.0.3",
+        "xo": "^0.24.0"
+    },
+    "engines": {
+        "node": ">=8"
+    },
+    "scripts": {
+        "release": "np",
+        "test": "xo && jest"
+    },
+    "xo": {
+        "envs": [
+            "jest"
+        ]
+    },
+    "jest": {
+        "collectCoverage": true
+    },
+    "author": {
+        "name": "Nicola Dal Maso",
+        "url": "https://github.com/niktekusho/"
+    },
+    "bugs": {
+        "url": "https://github.com/niktekusho/cli-name/issues"
+    },
+    "contributors": [
+        {
+            "name": "Nicola Dal Maso",
+            "url": "https://github.com/niktekusho/"
+        }
+    ],
+    "homepage": "https://github.com/niktekusho/cli-name#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/niktekusho/cli-name.git"
+    },
+    "dependencies": {
+        "meow": "^5.0.0",
+        "meow-shorts": "^0.0.1-0"
+    }
+}
