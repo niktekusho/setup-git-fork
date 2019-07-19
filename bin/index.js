@@ -7,7 +7,7 @@ const app = require('..');
 
 const cli = meow(`
 	Usage:
-	  $ cli-name …
+	  $ setup-git-fork …
 `);
 
 meowShortcuts(cli);

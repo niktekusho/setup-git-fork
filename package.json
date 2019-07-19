@@ -1,10 +1,10 @@
 {
-    "name": "cli-name",
+    "name": "setup-git-fork",
     "version": "0.0.0",
-    "description": "CLI Description",
+    "description": "Automate 'clone'ing and 'upstream'ing a git repository fork",
     "main": "index.js",
     "bin": {
-        "cli-name": "bin/index.js"
+        "setup-git-fork": "bin/index.js"
     },
     "license": "MIT",
     "devDependencies": {
@@ -32,7 +32,7 @@
         "url": "https://github.com/niktekusho/"
     },
     "bugs": {
-        "url": "https://github.com/niktekusho/cli-name/issues"
+        "url": "https://github.com/niktekusho/setup-git-fork/issues"
     },
     "contributors": [
         {
@@ -40,13 +40,16 @@
             "url": "https://github.com/niktekusho/"
         }
     ],
-    "homepage": "https://github.com/niktekusho/cli-name#readme",
+    "homepage": "https://github.com/niktekusho/setup-git-fork#readme",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/niktekusho/cli-name.git"
+        "url": "git+https://github.com/niktekusho/setup-git-fork.git"
     },
     "dependencies": {
+        "hosted-git-info": "^2.7.1",
         "meow": "^5.0.0",
-        "meow-shorts": "^0.0.1-0"
+        "meow-shorts": "^0.0.1-0",
+        "signale": "^1.4.0",
+        "simple-git": "^1.122.0"
     }
 }

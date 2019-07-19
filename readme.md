@@ -1,8 +1,8 @@
-# cli-name
+# setup-git-fork
 
-<!-- ![](https://img.shields.io/github/license/niktekusho/cli-name.svg) [![](https://img.shields.io/npm/v/cli-name.svg)](https://www.npmjs.com/package/cli-name) [![Build Status](https://travis-ci.org/niktekusho/cli-name.svg?branch=master)](https://travis-ci.org/niktekusho/cli-name) [![](https://img.shields.io/node/v/cli-name.svg)](https://www.npmjs.com/package/cli-name) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![](https://img.shields.io/bundlephobia/minzip/cli-name.svg)](https://bundlephobia.com/result?p=cli-name) -->
+<!-- ![](https://img.shields.io/github/license/niktekusho/setup-git-fork.svg) [![](https://img.shields.io/npm/v/setup-git-fork.svg)](https://www.npmjs.com/package/setup-git-fork) [![Build Status](https://travis-ci.org/niktekusho/setup-git-fork.svg?branch=master)](https://travis-ci.org/niktekusho/setup-git-fork) [![](https://img.shields.io/node/v/setup-git-fork.svg)](https://www.npmjs.com/package/setup-git-fork) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![](https://img.shields.io/bundlephobia/minzip/setup-git-fork.svg)](https://bundlephobia.com/result?p=setup-git-fork) -->
 
-> CLI Description
+> Automate 'clone'ing and 'upstream'ing a git repository fork
 
 ## Installation
 
@@ -11,13 +11,13 @@
 In your console, run the following command:
 
 ```sh
-$ npm install -g cli-name
+$ npm install -g setup-git-fork
 ```
 
 You can also use `yarn`:
 
 ```sh
-$ yarn add global cli-name
+$ yarn add global setup-git-fork
 ```
 
 ## Usage
