@@ -17,7 +17,7 @@ $ npm install -g setup-git-fork
 You can also use `yarn`:
 
 ```sh
-$ yarn add global setup-git-fork
+$ yarn global add setup-git-fork
 ```
 
 ## Usage
