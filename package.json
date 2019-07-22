@@ -1,9 +1,9 @@
 {
-    "name": "setup-git-fork",
+    "name": "setup-github-fork",
     "version": "0.0.0",
-    "description": "Automate 'clone'ing and 'upstream'ing a git repository fork",
+    "description": "Automate 'clone'ing and 'upstream'ing a GitHub repository fork",
     "bin": {
-        "setup-git-fork": "bin/index.js"
+        "setup-github-fork": "bin/index.js"
     },
     "license": "MIT",
     "devDependencies": {
@@ -31,7 +31,7 @@
         "url": "https://github.com/niktekusho/"
     },
     "bugs": {
-        "url": "https://github.com/niktekusho/setup-git-fork/issues"
+        "url": "https://github.com/niktekusho/setup-github-fork/issues"
     },
     "contributors": [
         {
@@ -39,10 +39,10 @@
             "url": "https://github.com/niktekusho/"
         }
     ],
-    "homepage": "https://github.com/niktekusho/setup-git-fork#readme",
+    "homepage": "https://github.com/niktekusho/setup-github-fork#readme",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/niktekusho/setup-git-fork.git"
+        "url": "git+https://github.com/niktekusho/setup-github-fork.git"
     },
     "dependencies": {
         "hosted-git-info": "^2.7.1",

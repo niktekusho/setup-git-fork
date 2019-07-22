@@ -9,10 +9,10 @@ const cli = meow(`
 	Automate 'clone'ing and 'upstream'ing a git repository fork
 
 	Usage:
-	  $ setup-git-fork --git-username="your-git-username" [git-repository-url]
+	  $ setup-github-fork --github-username="your-github-username" [github-repository-url]
 `, {
 	flags: {
-		"git-username": {
+		"github-username": {
 			alias: 'u',
 			type: 'string'
 		}

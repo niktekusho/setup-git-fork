@@ -25,8 +25,8 @@ async function app(input, options) {
 		throw new Error('Only one (1) repository URL must be specified.');
 	}
 
-	const userGitUsername = options.gitUsername;
-	if (isNullOrUndefined(userGitUsername)) {
+	const userGitHubUsername = options.githubUsername;
+	if (isNullOrUndefined(userGitHubUsername)) {
 		throw new Error('In order to setup a fork, you need to specify your git username.');
 	}
 
@@ -50,7 +50,7 @@ async function app(input, options) {
 
 	const remoteFork = inputRepoInfo.https({
 		noGitPlus: true
-	}).replace(inputRepoInfo.user, userGitUsername);
+	}).replace(inputRepoInfo.user, userGitHubUsername);
 
 	console.log(remoteFork);
 
