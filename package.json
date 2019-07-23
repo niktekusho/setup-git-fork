@@ -45,7 +45,10 @@
         "url": "git+https://github.com/niktekusho/setup-github-fork.git"
     },
     "dependencies": {
+        "env-paths": "^2.2.0",
         "hosted-git-info": "^2.7.1",
+        "inquirer": "^6.5.0",
+        "make-dir": "^3.0.0",
         "meow": "^5.0.0",
         "meow-shorts": "^0.0.1-0",
         "signale": "^1.4.0",

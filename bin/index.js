@@ -3,21 +3,14 @@
 const meow = require('meow');
 const meowShortcuts = require('meow-shorts');
 
-const app = require('..');
+const app = require('../src');
 
 const cli = meow(`
 	Automate 'clone'ing and 'upstream'ing a git repository fork
 
 	Usage:
-	  $ setup-github-fork --github-username="your-github-username" [github-repository-url]
-`, {
-	flags: {
-		"github-username": {
-			alias: 'u',
-			type: 'string'
-		}
-	}
-});
+	  $ setup-github-fork [github-repository-url]
+`);
 
 meowShortcuts(cli);
 

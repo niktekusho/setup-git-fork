@@ -1,4 +1,4 @@
-const app = require('.');
+const app = require('./src');
 
 describe('App testing', () => {
 	// TODO

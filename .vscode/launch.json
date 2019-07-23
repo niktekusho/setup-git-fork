@@ -18,6 +18,21 @@
             "skipFiles": [
                 "<node_internals>/**/*.js"
             ]
-        }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Jest Current File",
+            "program": "${workspaceFolder}/node_modules/.bin/jest",
+            "args": [
+              "${fileBasenameNoExtension}"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "disableOptimisticBPs": true,
+            "windows": {
+              "program": "${workspaceFolder}/node_modules/jest/bin/jest",
+            }
+          }
     ]
 }

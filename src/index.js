@@ -1,11 +1,10 @@
 const gitInfo = require('hosted-git-info');
 const git = require('simple-git/promise');
 
-const signale = require('signale');
+// TODO
+// const signale = require('signale');
 
-function isNullOrUndefined(obj) {
-	return obj === null || obj === undefined;
-}
+const {isNullOrUndefined} = require('./utils');
 
 async function app(input, options) {
 	console.log(`Input received: ${input}`);
@@ -13,7 +12,7 @@ async function app(input, options) {
 
 	// Throw if the current dir is already a git repository
 	if (await git().checkIsRepo()) {
-		throw new Error('The directory in which this application is running is already a git repository.')
+		throw new Error('The directory in which this application is running is already a git repository.');
 	}
 
 	if (input.length === 0) {
